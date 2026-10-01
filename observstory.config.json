@@ -1,0 +1,56 @@
+{
+  "title": "Hack am Rhein · Challenge Garden Observatory",
+  "window_hours": 72,
+  "lanes": [
+    {
+      "id": "frame",
+      "label": "Frame",
+      "description": "Cross-cutting framing, repo intent and declared coordination",
+      "paths": ["README.md", "docs/", ".observstory/", "observstory.config.json"]
+    },
+    {
+      "id": "life-sciences",
+      "label": "Life Sciences",
+      "description": "Basel life-sciences ecosystem challenge brief and ideation",
+      "paths": ["challenges/life-sciences/"]
+    },
+    {
+      "id": "sponge-city",
+      "label": "Sponge City",
+      "description": "Heat + water intervention challenge brief and ideation",
+      "paths": ["challenges/sponge-city/"]
+    },
+    {
+      "id": "basel-38",
+      "label": "Basel at 38",
+      "description": "Heat-response challenge brief and ideation",
+      "paths": ["challenges/basel-38/"]
+    },
+    {
+      "id": "manufacturing",
+      "label": "Manufacturing",
+      "description": "Rhine / traffic / weather manufacturing challenge brief and ideation",
+      "paths": ["challenges/rhine-manufacturing/"]
+    },
+    {
+      "id": "automation",
+      "label": "Automation",
+      "description": "Repository workflows and observability automation",
+      "paths": [".github/"]
+    }
+  ],
+  "signals": {
+    "overlap_min_work_items": 2,
+    "stale_hours": 48,
+    "burst_min_commits": 8,
+    "burst_window_minutes": 30
+  },
+  "ignore": ["/observstory/", "*.png"],
+  "containers": ["challenges", "docs"],
+  "area_depth": 2,
+  "max_commits": 100,
+  "max_pull_requests": 40,
+  "max_open_pull_requests": 30,
+  "max_branches": 30,
+  "max_issues": 60
+}
