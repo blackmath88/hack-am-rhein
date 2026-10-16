@@ -1,4 +1,13 @@
+<!-- BEGIN public-repo-header -->
+<div align="center">
+
 # Hack am Rhein 2026 — challenge garden
+
+<a href="https://github.com/blackmath88/hack-am-rhein/tree/main/docs"><img alt="Documentation" src="https://img.shields.io/badge/docs-guide-16796f?style=flat"></a>
+<a href="https://github.com/blackmath88/hack-am-rhein/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/blackmath88/hack-am-rhein?style=flat&amp;color=737373"></a>
+
+</div>
+<!-- END public-repo-header -->
 
 A working repository for cultivating Hack am Rhein challenge ideas before choosing what to build.
 
